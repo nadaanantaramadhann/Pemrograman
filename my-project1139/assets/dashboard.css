@@ -1,0 +1,141 @@
+body {
+    font-size: .875rem;
+    background-color: #f0f2f5;
+    color: #1a1a2e;
+}
+
+.feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    background-color: #1a1a2e;
+    box-shadow: inset -1px 0 0 rgba(226, 185, 111, 0.15);
+}
+
+@media (max-width: 767.98px) {
+    .sidebar {
+        top: 5rem;
+    }
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #a8b2d8;
+    padding: 8px 16px;
+    border-radius: 6px;
+    margin: 2px 8px;
+    transition: 0.2s;
+}
+
+.sidebar .nav-link .feather {
+    margin-right: 6px;
+    color: #a8b2d8;
+}
+
+.sidebar .nav-link:hover {
+    color: #e2b96f;
+    background-color: rgba(226, 185, 111, 0.08);
+}
+
+.sidebar .nav-link:hover .feather {
+    color: #e2b96f;
+}
+
+.sidebar .nav-link.active {
+    color: #e2b96f;
+    background-color: rgba(226, 185, 111, 0.12);
+}
+
+.sidebar .nav-link.active .feather {
+    color: #e2b96f;
+}
+
+.sidebar .nav-link-gold {
+    color: #e2b96f !important;
+}
+
+.sidebar .nav-link-danger {
+    color: #e07070 !important;
+}
+
+.sidebar .nav-link-danger .feather {
+    color: #e07070 !important;
+}
+
+.sidebar-heading {
+    font-size: .68rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(168, 178, 216, 0.45);
+}
+
+/* ===== NAVBAR TOP ===== */
+.navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #16213e;
+    box-shadow: inset -1px 0 0 rgba(226, 185, 111, 0.2);
+    color: #e2b96f !important;
+}
+
+.navbar {
+    background-color: #1a1a2e !important;
+    border-bottom: 1px solid rgba(226, 185, 111, 0.15);
+}
+
+.navbar .navbar-toggler {
+    top: .25rem;
+    right: 1rem;
+}
+
+.navbar .form-control {
+    padding: .75rem 1rem;
+    border-width: 0;
+    border-radius: 0;
+    background-color: #16213e;
+    color: #a8b2d8;
+}
+
+.navbar .form-control::placeholder {
+    color: #555e7a;
+}
+
+.form-control-dark {
+    color: #a8b2d8;
+    background-color: #16213e;
+    border-color: rgba(226, 185, 111, 0.1);
+}
+
+.form-control-dark:focus {
+    border-color: #e2b96f;
+    box-shadow: 0 0 0 2px rgba(226, 185, 111, 0.2);
+    color: #e6edf3;
+    background-color: #16213e;
+}
+
+/* ===== MAIN CONTENT ===== */
+main {
+    background-color: #f0f2f5;
+}
+
+main h1, main h2, main h4, main h5 {
+    color: #1a1a2e;
+}
+
+.border-bottom {
+    border-color: #d8dce8 !important;
+}
+
+/* ===== STAT
